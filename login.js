@@ -26,7 +26,7 @@ document.getElementById('login-button').addEventListener('click',function (event
     console.log(phoneNumber,pinNumber);
     if(phoneNumber==='7' && pinNumber==1234){
         console.log('you are logged in');
-        window.location.href='/home.html'
+        window.location.href='./index2.html'
        }
        else{
         alert('Wrong username and password')

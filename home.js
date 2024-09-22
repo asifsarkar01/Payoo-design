@@ -35,34 +35,34 @@
    
     
   
-//   document.getElementById('add-money')
-//       .addEventListener('click',
-//          function(event){
-//     event.preventDefault();
+  document.getElementById('add-money')
+      .addEventListener('click',
+         function(event){
+    event.preventDefault();
 
-//     const addAmount =document.getElementById('add-amount').value;
-//     console.log(addAmount);
+    const addAmount =document.getElementById('add-amount').value;
+    console.log(addAmount);
 
-//     const getPin =document.getElementById('get-pin').value;
-//     console.log(getPin);
+    const getPin =document.getElementById('get-pin').value;
+    console.log(getPin);
 
-//     if(getPin === '2345'){
-//         console.log('add')
+    if(getPin === '2345'){
+        console.log('add')
 
-//         const balance = document.getElementById('balance-stat').innerText;
-//         console.log(balance);
+        const balance = document.getElementById('balance-stat').innerText;
+        console.log(balance);
 
-//         const newAmountNumber =parseFloat(addAmount);
-//         const balanceNumber =parseFloat(balance);
-//         const newBalance =newAmountNumber+balanceNumber;
-//         console.log(newBalance);
-//         document.getElementById('balance-stat').innerText=newBalance;
-//     }
-//     else{
-//         alert('Wrong pin! Try again!')
-//     }
-//          }
-//       )
+        const newAmountNumber =parseFloat(addAmount);
+        const balanceNumber =parseFloat(balance);
+        const newBalance =newAmountNumber+balanceNumber;
+        console.log(newBalance);
+        document.getElementById('balance-stat').innerText=newBalance;
+    }
+    else{
+        alert('Wrong pin! Try again!')
+    }
+         }
+      )
 
 // Cashout option creat here add money er mothoi same 
         document.getElementById('out-money')
